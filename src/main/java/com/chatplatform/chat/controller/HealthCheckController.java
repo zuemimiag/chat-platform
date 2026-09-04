@@ -8,6 +8,6 @@ public class HealthCheckController {
 
     @GetMapping("/api/healthCheck")
     public String healthCheck(){
-        return "Chat Platform is running.!";
+        return "Chat Platform is running!";
     }
 }
