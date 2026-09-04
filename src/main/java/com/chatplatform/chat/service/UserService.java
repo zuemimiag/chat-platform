@@ -1,14 +1,16 @@
 package com.chatplatform.chat.service;
 
 import com.chatplatform.chat.Entity.User;
+import com.chatplatform.chat.dto.UserRequest;
+import com.chatplatform.chat.dto.UserResponse;
 
 import java.util.List;
 
 public interface UserService {
 
-    User createUser(User user);
+    UserResponse createUser(UserRequest user);
 
-    List<User> getAllUser();
+    List<UserResponse> getAllUser();
 
-    User getUserById(Long id);
+    UserResponse getUserById(Long id);
 }
