@@ -1,0 +1,18 @@
+# Chat Platform
+
+Real-Time Chat & Collaboration Platform
+
+## Backend
+- Java 17
+- Spring Boot
+- Maven
+
+## Frontend
+- React
+
+## Infrastructure
+- PostgreSQL
+- Redis
+- Kafka
+- Docker
+- Kubernetes
